@@ -8,7 +8,7 @@ import lightgbm as lgb
 
 print('Loading data...')
 # load or create your dataset
-regression_example_dir = Path(__file__).parent.absolute()
+regression_example_dir = Path(__file__).parent.parent.absolute()
 
 # df_train1 = pd.read_csv(str(regression_example_dir / 'regression.train'), header=None, sep='\t')
 # df_test1 = pd.read_csv(str(regression_example_dir / 'regression.test'), header=None, sep='\t')
